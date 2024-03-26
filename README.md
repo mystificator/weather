@@ -1,24 +1,13 @@
-# README
+# 3. API Integration:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project: Integrate a weather API to fetch weather data.
 
-Things you may want to cover:
+## Contents:
 
-* Ruby version
+• External API Integration: Use an external weather API (such as OpenWeatherMap or WeatherAPI) to fetch weather data.
 
-* System dependencies
+• Endpoints: GET /weather/:city (retrieve weather data for a specific city).
 
-* Configuration
+• HTTP Requests: Use Ruby's HTTP client or libraries like HTTParty to make requests to the external API and process the responses.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+• Unit Tests: Write unit tests for the whole project
